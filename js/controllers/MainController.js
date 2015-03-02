@@ -22,18 +22,36 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.mains = [
     {
       name: 'Margherita',
-      description: 'Mozzarella, tomatoes, basil, balsmaic glaze.',
-      price: 4.95
+      description: 'Marinara sauce, tomatoes, basil, balsmaic glaze.',
+      price: 6.95
     },
     {
       name: 'Pepperoni',
-      description: 'Served with marinara sauce.',
-      price: 3.95
+      description: 'Pepperoni with marinara sauce.',
+      price: 7.95
     },
     {
       name: 'Rustica',
-      description: 'Grilled bread garlic, tomatoes, olive oil.',
-      price: 4.95
+      description: 'Marinara sauce, bread garlic, tomatoes, olive oil.',
+      price: 8.95
+    }
+  ];
+
+  $scope.extras = [
+    {
+      name: 'Breadsticks',
+      description: 'More Marinara sauce.',
+      price: 6.95
+    },
+    {
+      name: 'Soup of the Day',
+      description: 'Take a chance.',
+      price: 7.95
+    },
+    {
+      name: 'Buffalo Wings',
+      description: 'Feel the power of wings.',
+      price: 8.95
     }
   ];
 
