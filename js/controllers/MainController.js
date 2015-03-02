@@ -41,17 +41,17 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'Breadsticks',
       description: 'More Marinara sauce.',
-      price: 6.95
+      price: 4.95
     },
     {
       name: 'Soup of the Day',
       description: 'Take a chance.',
-      price: 7.95
+      price: 4.95
     },
     {
       name: 'Buffalo Wings',
       description: 'Feel the power of wings.',
-      price: 8.95
+      price: 6.95
     }
   ];
 
